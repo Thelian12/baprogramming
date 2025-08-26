@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic web</title>
+
+    <style>
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: red;
+        }
+
+        h5,
+        h6 {
+            color: green
+        }
+    </style>
+
+</head>
+<body>
+    <button onclick="changecolor()" > Try code Js</button>
+    <button onclick="changecolor2()" > Change to white color</button>
+    <h1 id="title"> Leandro Rincon </h1>  <!--Recognition of the h1 -->
+    <h2> Second heading </h2>
+    <h3> Leandro Rincon </h3>
+    <h4> Leandro Rincon </h4>
+    <h5> Leandro Rincon </h5>
+    <h6> Hola que tal</h6>
+    <p>Hi leandro whats up</p>
+
+    <script> //This is a way to put interaction
+        function changecolor() {
+            
+        alert("Hi Welcome")
+    document.body.style.backgroundColor = "black";
+document.getElementById("title").style.color = "orange";
+
+        }
+
+
+function changecolor2() {  //I put a botton to change the color
+            
+        alert("You change the color")
+    document.body.style.backgroundColor = "white";
+
+}
+
+
+        
+</script>
+
+</body>
+
+</html>
